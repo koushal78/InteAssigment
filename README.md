@@ -1,7 +1,7 @@
 # React.js Intern Assignment
 
 ## 🌟 Live Demo
-[Click Here to View Live](#) *(Replace with your deployed URL)*
+[inteassigment.netlify.app](#) 
 
 ## 📌 Project Overview
 This is a **React.js application** that fetches and displays data from the **JSONPlaceholder API**. It includes features like **search, filtering, pagination, and routing** using `react-router-dom`. The UI is built with **Tailwind CSS** to ensure a modern and responsive design.
