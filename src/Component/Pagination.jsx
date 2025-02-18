@@ -23,7 +23,7 @@ const Pagination = ({totalPost,postperPage,setCurrPage,currPage}) => {
   }
    
   return (
-    <div className="relative ">
+    <div className="relative top-4">
       <div className="flex gap-8 text-2xl text-white justify-center">
       <button className="cursor-pointer"
       onClick={handleprev}
