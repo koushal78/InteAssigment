@@ -12,7 +12,7 @@ This is a **React.js application** that fetches and displays data from the **JSO
 ✅ **Search & Filter** to find items quickly
 ✅ **Pagination** for better data navigation
 ✅ **Responsive UI** using Tailwind CSS
-✅ **Hosted on Vercel/Netlify** *(Replace with actual deployment platform)*
+✅ **Hosted on Netlify** 
 
 ---
 
