@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import Details from './Pages/Home/Details'
+import Footer from './Component/Footer'
 
 const App = () => {
   return (

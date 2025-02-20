@@ -32,7 +32,7 @@ const Home = () => {
     const currPost = posts.slice(firstPostIndex,lastPostIndex)
   
   return (
-    <div className="bg-gradient-to-r from-slate-900 to-slate-700 min-h-screen ">
+    <div className="bg-gradient-to-r from-slate-900 to-slate-700 min-h-screen w-screen">
       <div className="">      
         <h1 className="text-2xl font-bold text-white text-center py-2 ">Inter Assignment </h1>
 
@@ -56,8 +56,8 @@ const Home = () => {
           post.title.toLowerCase().includes(search.toLowerCase())
         )).map((post)=>(
             <div key={post.id} className=" w-[400px] h-[230px] mx-auto my-1 p-2 border- rounded shadow-lg bg-white flex flex-col items-center justify-between gap-4">
-            <h2 className="text-xl font-bold text-center">{post.title}</h2>
-            <p className="text-slate-700 text-center">{post.body.slice(0, 100)}...</p>
+            <h2 className="text-xl font-bold text-center">{post.title.slice(0,50)}...</h2>
+            <p className="text-slate-700 text-center">{post.body.slice(0, 80)}...</p>
             <Link to={`/item/${post.id}`} className="my-4 border-2 py-2 px-4 rounded-lg font-semibold text-purple-600 hover:scale-120 duration-200 cursor-pointer max-w-max ">Read More</Link>
           </div>
         ))
@@ -78,6 +78,7 @@ const Home = () => {
     </>)
   }    
       </div>
+     
       <Footer/>
     </div>
   )
